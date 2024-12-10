@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Load the image model and setup the webcam
 async function init() {
-    const modelURL = "model.json";
-    const metadataURL = "metadata.json";
+    const modelURL = "dataset_material/model.json";
+    const metadataURL = "dataset_material/metadata.json";
 
     // Load the model and metadata
     model = await tmImage.load(modelURL, metadataURL);
